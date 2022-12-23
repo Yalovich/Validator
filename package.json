@@ -1,0 +1,27 @@
+{
+  "name": "@yalovich/validator",
+  "version": "1.0.4",
+  "description": "Handy functions to various validations",
+  "main": "validator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ship": "npm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yalovich/Validator.git"
+  },
+  "keywords": [
+    "validation",
+    "email",
+    "validation",
+    "passport",
+    "validation"
+  ],
+  "author": "Idan Yalovich (yalovich.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Yalovich/Validator/issues"
+  },
+  "homepage": "https://github.com/Yalovich/Validator#readme"
+}
