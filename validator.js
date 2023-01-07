@@ -36,6 +36,11 @@ class Validate
 	 */
 	 static isEmpty(str) { return (!str || str.length == 0 ? true : false); }
 
+	 static phone(number) {
+		let re = /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/mgi;
+		return re.test(number);
+	 }
+
 	/**
 	 * Validate String 
 	 * @param {string} str

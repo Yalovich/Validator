@@ -1,6 +1,6 @@
 {
   "name": "@yalovich/validator",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Handy functions to various validations",
   "main": "validator.js",
   "scripts": {
